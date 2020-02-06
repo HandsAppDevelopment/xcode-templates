@@ -11,6 +11,11 @@ Clone this project and navigate to it via terminal. Run install script:
 
 This script will copy HandsApp project template to `~/Library/Developer/Xcode/Templates/Project Templates/HandsApp` where Xcode will be able to find it. 
 
+    chmod +x install_handsapp_network_ios_app_template.sh
+    ./install_handsapp_ios_app_template.sh
+
+This script will copy HandsApp project template for networking to `~/Library/Developer/Xcode/Templates/Project Templates/HandsApp` where Xcode will be able to find it. 
+
     chmod +x install_empty_swift_file_template.sh
     ./install_empty_swift_file_template.sh
 
@@ -45,3 +50,7 @@ This template creates iOS project with [MVP](https://medium.com/@saad.eloulladi/
 6. Remove automaticaly generated tests boilerplate file `{project_name}Tests\{project_name}Tests.swift`
 6. Configure Generamba and setup templates: `generamba template install`
 7. Build project
+
+### HandsApp iOS Network App Template
+
+Template inherits HandsApp iOS App Template and includes pods (like [Moya](https://github.com/Moya/Moya) and [SDWebImage](https://github.com/SDWebImage/SDWebImage)) and classes for networking. Project initializations steps the same. Use this template when your app requires server comunication.
