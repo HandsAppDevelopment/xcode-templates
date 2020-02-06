@@ -42,6 +42,6 @@ This template creates iOS project with [MVP](https://medium.com/@saad.eloulladi/
 4. Run `pod install` to install pods;
 5. Open the generated workspace, navigate to *Build Phases* of your project's main target and **move the SwiftFormat, SwiftLint, and R.Swift script phases above the compile phase** (exactly that order). We have to make this step manually due to limitations of Xcode templates;
    ![Build phases configuration](images/build_phases_configuration.png)
-6. Remove automaticaly generated tests boilerplate file `{project_name}Tests\{project_name}Tests.swift` (Optional)
+6. Remove automaticaly generated tests boilerplate file `{project_name}Tests\{project_name}Tests.swift`
 6. Configure Generamba and setup templates: `generamba template install`
 7. Build project
