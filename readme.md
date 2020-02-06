@@ -12,7 +12,7 @@ Clone this project and navigate to it via terminal. Run install script:
 This script will copy HandsApp project template to `~/Library/Developer/Xcode/Templates/Project Templates/HandsApp` where Xcode will be able to find it. 
 
     chmod +x install_handsapp_network_ios_app_template.sh
-    ./install_handsapp_ios_app_template.sh
+    ./install_handsapp_network_ios_app_template.sh
 
 This script will copy HandsApp project template for networking to `~/Library/Developer/Xcode/Templates/Project Templates/HandsApp` where Xcode will be able to find it. 
 
