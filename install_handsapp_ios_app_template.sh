@@ -4,7 +4,7 @@ set -o errexit
 set -o errtrace
 
 TEMPLATE_DIR=${HOME}/"Library/Developer/Xcode/Templates/Project Templates/HandsApp"
-TEMPLATE_NAME="HandsApp iOS App Template.xctemplate"
+TEMPLATE_NAME="HandsApp iOS App.xctemplate"
 
 if [ ! -d "$TEMPLATE_DIR" ]; then
   echo "Didn't find a directory for the templates, so creating it..."
@@ -13,7 +13,7 @@ if [ ! -d "$TEMPLATE_DIR" ]; then
 fi
 
 if [ -d "$TEMPLATE_DIR/$TEMPLATE_NAME" ]; then
-  echo "Delete previously created directory for the templates..."
+  echo "Delete previously created templates..."
   rm -rf "$TEMPLATE_DIR/$TEMPLATE_NAME"
   echo "Deleted $TEMPLATE_DIR/$TEMPLATE_NAME"
 fi

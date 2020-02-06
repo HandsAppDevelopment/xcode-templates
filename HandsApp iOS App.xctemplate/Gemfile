@@ -8,4 +8,4 @@ git_source(:github) do |repo_name|
 end if Gem::Version.new(Bundler::VERSION) < Gem::Version.new('2')
 
 gem 'cocoapods'
-gem 'generamba', github: 'surfstudio/Generamba', branch: 'develop'
+gem 'generamba'

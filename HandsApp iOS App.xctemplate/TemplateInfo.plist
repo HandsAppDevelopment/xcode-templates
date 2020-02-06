@@ -151,11 +151,11 @@
 		<string>Services/.gitkeep</string>
 		<string>Screens/.gitkeep</string>
 		<string>Resources/Assets.xcassets</string>
-		<string>Resources/Strings/.gitkeep</string>
+		<string>Resources/Strings/Localizable.strings</string>
 		<string>Resources/Images/.gitkeep</string>
 		<string>Resources/Constants/ApiKeys.swift</string>
 		<string>Resources/Fonts/.gitkeep</string>
-		<string>Models/.gitkeep</string>
+		<string>Models/Presentation/.gitkeep</string>
 		<string>Library/Base Classes/.gitkeep</string>
 		<string>Library/Utils/.gitkeep</string>
 		<string>Library/Extensions/.gitkeep</string>
@@ -250,6 +250,16 @@
 			<key>Group</key>
 			<string>Application</string>
 		</dict>
+		<key>Resources/Strings/Localizable.strings</key>
+		<dict>
+			<key>Path</key>
+			<string>Localizable.strings</string>
+			<key>Group</key>
+			<array>
+				<string>Resources</string>
+				<string>Strings</string>
+			</array>
+		</dict>
 		<key>Library/Base Classes/.gitkeep</key>
 		<dict>
 			<key>Group</key>
@@ -310,12 +320,12 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Models/.gitkeep</key>
+		<key>Models/Presentation/.gitkeep</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Models</string>
-				<string>Entity</string>
+				<string>Presentation</string>
 			</array>
 			<key>Path</key>
 			<string>.gitkeep</string>
@@ -328,18 +338,6 @@
 			<string>Assets.xcassets</string>
 			<key>Group</key>
 			<string>Resources</string>
-		</dict>
-		<key>Resources/Strings/.gitkeep</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Resources</string>
-				<string>Strings</string>
-			</array>
-			<key>Path</key>
-			<string>.gitkeep</string>
-			<key>TargetIndices</key>
-			<array/>
 		</dict>
 		<key>Resources/Images/.gitkeep</key>
 		<dict>
