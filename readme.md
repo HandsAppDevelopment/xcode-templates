@@ -24,7 +24,7 @@ This template creates blank Swift file without headers and imports.
 
 ### HandsApp iOS App Template
 
-This template creates iOS project with [SurfMVP](https://github.com/surfstudio/Surf-iOS-Developers/blob/master/Surf_MVP.md) structure with some userful features:
+This template creates iOS project with [MVP](https://medium.com/@saad.eloulladi/ios-swift-mvp-architecture-pattern-a2b0c2d310a3) structure with some useful features:
 
 * `.gitignore` file;
 * [SwiftLint](https://github.com/realm/SwiftLint) build phase integration and configuration file;
