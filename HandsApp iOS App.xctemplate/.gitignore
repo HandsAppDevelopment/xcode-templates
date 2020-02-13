@@ -21,6 +21,9 @@ Pods/
 ### Fastlane Screenshots ###
 screenshots/
 
+### Generamba Templates ###
+Templates/
+
 ### macOS ###
 # General
 .DS_Store
