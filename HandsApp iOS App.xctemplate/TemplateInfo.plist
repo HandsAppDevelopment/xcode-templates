@@ -156,7 +156,7 @@
 		<string>Resources/Constants/ApiKeys.swift</string>
 		<string>Resources/Fonts/.gitkeep</string>
 		<string>Models/Presentation/.gitkeep</string>
-		<string>Library/Base Classes/.gitkeep</string>
+		<string>Library/Base Classes/PreparableTableCell.swift</string>
 		<string>Library/Utils/.gitkeep</string>
 		<string>Library/Extensions/.gitkeep</string>
 		<string>Library/Reusable Layer/.gitkeep</string>
@@ -261,18 +261,6 @@
 				<string>Resources</string>
 				<string>Strings</string>
 			</array>
-		</dict>
-		<key>Library/Base Classes/.gitkeep</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Library</string>
-				<string>Base Classes</string>
-			</array>
-			<key>Path</key>
-			<string>.gitkeep</string>
-			<key>TargetIndices</key>
-			<array/>
 		</dict>
 		<key>Library/Utils/.gitkeep</key>
 		<dict>
@@ -431,6 +419,16 @@
 			</array>
 			<key>Path</key>
 			<string>PreparableViewModel.swift</string>
+		</dict>
+		<key>Library/Base Classes/PreparableTableCell.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Library</string>
+				<string>Base Classes</string>
+			</array>
+			<key>Path</key>
+			<string>PreparableTableCell.swift</string>
 		</dict>
 	</dict>
 	<key>Targets</key>
