@@ -161,6 +161,8 @@
 		<string>Library/Extensions/.gitkeep</string>
 		<string>Library/Reusable Layer/.gitkeep</string>
 		<string>Library/Protocols/ScreenTransitionable.swift</string>
+		<string>Library/Protocols/Preparable.swift</string>
+		<string>Library/Protocols/PreparableViewModel.swift</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -409,6 +411,26 @@
 			</array>
 			<key>Path</key>
 			<string>ScreenTransitionable.swift</string>
+		</dict>
+		<key>Library/Protocols/Preparable.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Library</string>
+				<string>Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>Preparable.swift</string>
+		</dict>
+		<key>Library/Protocols/PreparableViewModel.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Library</string>
+				<string>Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>PreparableViewModel.swift</string>
 		</dict>
 	</dict>
 	<key>Targets</key>
