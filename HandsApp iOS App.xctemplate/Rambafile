@@ -35,3 +35,4 @@ catalogs:
 ### Templates
 templates:
 - {name: handsapp_mvp_screen}
+- {name: handsapp_mvp_table_screen}

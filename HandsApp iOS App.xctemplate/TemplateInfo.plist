@@ -150,7 +150,7 @@
 		<string>Third Party/.gitkeep</string>
 		<string>Services/.gitkeep</string>
 		<string>Screens/.gitkeep</string>
-		<string>Resources/Assets.xcassets</string>
+		<string>Resources/Images/Assets.xcassets</string>
 		<string>Resources/Strings/Localizable.strings</string>
 		<string>Resources/Images/.gitkeep</string>
 		<string>Resources/Constants/ApiKeys.swift</string>
@@ -322,22 +322,15 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Resources/Assets.xcassets</key>
+		<key>Resources/Images/Assets.xcassets</key>
 		<dict>
 			<key>Path</key>
 			<string>Assets.xcassets</string>
-			<key>Group</key>
-			<string>Resources</string>
-		</dict>
-		<key>Resources/Images/.gitkeep</key>
-		<dict>
 			<key>Group</key>
 			<array>
 				<string>Resources</string>
 				<string>Images</string>
 			</array>
-			<key>Path</key>
-			<string>.gitkeep</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>

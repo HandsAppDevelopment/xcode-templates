@@ -1,10 +1,3 @@
-//
-//  ScreenTransitionable.swift
-//
-//  Created by Никита Красавин on 10/09/2019.
-//  Copyright © 2019 Handsapp. All rights reserved.
-//
-
 import UIKit
 
 protocol ScreenTransitionable: AnyObject {
@@ -12,6 +5,7 @@ protocol ScreenTransitionable: AnyObject {
     func dismissView(animated: Bool, completion: (() -> Void)?)
     func presentScreen(_ screen: UIViewController, animated: Bool, completion: (() -> Void)?)
     func pop(animated: Bool)
+    func popToRoot(animated: Bool)
     func push(screen: UIViewController, animated: Bool)
 }
 
@@ -30,6 +24,10 @@ extension ScreenTransitionable where Self: UIViewController {
 
     func pop(animated: Bool) {
         navigationController?.popViewController(animated: animated)
+    }
+
+    func popToRoot(animated: Bool) {
+        navigationController?.popToRootViewController(animated: true)
     }
 
     func push(screen: UIViewController, animated: Bool) {
